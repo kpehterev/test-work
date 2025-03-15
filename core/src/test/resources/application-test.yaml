@@ -1,0 +1,32 @@
+spring:
+  config:
+    activate:
+      on-profile: test
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/testdb"
+    username: "postgres"
+    password: "postgres"
+    hikari:
+      schema:
+  flyway:
+    locations:
+      - "classpath:db/migration"
+    enabled: true
+    schemas:
+
+zonky:
+  test:
+    database:
+      replace: any
+
+feign:
+  client:
+    url:
+      pim-client: "http://localhost:${wiremock.server.port}"
+
+logging:
+  level:
+    root: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"
+

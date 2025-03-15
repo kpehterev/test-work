@@ -1,0 +1,54 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://5432/test"
+    username: "test"
+    password: "test"
+    driverClassName: "org.postgresql.Driver"
+  flyway:
+    locations:
+      - "classpath:db/migration"
+    outOfOrder: true
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password:
+      timeout: 2000
+      database: 0
+  mail:
+    sender: "x@x.x.ru"
+    recipient: "xxxn@mailto.plus"
+    host: "8x8x"
+    port: 465
+    username: "xx"
+    password: "heN958>zbm"
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          ssl:
+            trust: "*"
+            enable: true
+            key_store: mail_keystore.jks
+            key_store_password: 123456
+    debug: true
+  docker:
+    compose:
+      enabled: false
+
+users:
+  admin: "useradmin@mail.ru/R6tY3q9Zx1/ADMIN"
+  rusinox: "userrusinox@mail.ru/X4vB5jM1sQ/RUSINOX"
+  nf: "usernf@mail.ru/L2oP8wN7k0/NF"
+  carbo: "usercarbo@mail.ru/A5tP6sN6j6/CARBO"
+  idc: "useridc@mail.ru/L3ar22N7z5/IDC"
+
+auth:
+  security:
+    excluded-paths:
+      - "/login"
