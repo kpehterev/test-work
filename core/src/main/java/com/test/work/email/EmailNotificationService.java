@@ -1,4 +1,4 @@
-package main.java.com.test.work.email;
+package com.test.work.email;
 
 import com.test.work.exception.ErrorResponseException;
 import com.test.work.model.User;

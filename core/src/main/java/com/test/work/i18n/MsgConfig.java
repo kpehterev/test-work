@@ -1,4 +1,4 @@
-package main.java.com.test.work.i18n;
+package com.test.work.i18n;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;

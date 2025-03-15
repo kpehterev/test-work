@@ -1,4 +1,4 @@
-package test.java.com.test.work.util;
+package com.test.work.util;
 
 import com.test.work.exception.ErrorResponseException;
 import io.micrometer.common.lang.Nullable;

@@ -1,4 +1,4 @@
-package main.java.com.test.work.security.config;
+package com.test.work.security.config;
 
 import com.test.work.security.jwt.JwtAuthenticationEntryPoint;
 import com.test.work.security.jwt.JwtFilter;

@@ -1,4 +1,4 @@
-package main.java.com.test.work;
+package com.test.work;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.ImportAutoConfiguration;

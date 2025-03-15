@@ -1,4 +1,4 @@
-package main.java.com.test.work.i18n;
+package com.test.work.i18n;
 
 import io.micrometer.common.lang.Nullable;
 import lombok.NonNull;

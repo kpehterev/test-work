@@ -1,4 +1,4 @@
-package main.java.com.test.work.security.jwt;
+package com.test.work.security.jwt;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.test.work.security.config.SecurityProperties;

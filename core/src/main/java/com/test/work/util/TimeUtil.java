@@ -1,4 +1,4 @@
-package main.java.com.test.work.util;
+package com.test.work.util;
 
 import java.sql.ResultSet;
 import java.sql.Timestamp;

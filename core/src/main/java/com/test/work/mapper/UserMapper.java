@@ -1,4 +1,4 @@
-package main.java.com.test.work.mapper;
+package com.test.work.mapper;
 
 import com.test.work.entity.UserEntity;
 import com.test.work.model.User;

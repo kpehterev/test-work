@@ -1,4 +1,4 @@
-package main.java.com.test.work.controller;
+package com.test.work.controller;
 
 import com.test.work.api.UserApi;
 import com.test.work.email.EmailNotificationService;

@@ -1,4 +1,4 @@
-package test.java.com.test.work;
+package com.test.work;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

@@ -1,4 +1,4 @@
-package main.java.com.test.work.repository;
+package com.test.work.repository;
 
 import com.test.work.entity.UserEntity;
 import org.springframework.data.domain.Page;

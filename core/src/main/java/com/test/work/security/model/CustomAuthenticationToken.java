@@ -1,4 +1,4 @@
-package main.java.com.test.work.security.model;
+package com.test.work.security.model;
 
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.GrantedAuthority;

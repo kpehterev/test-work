@@ -1,4 +1,4 @@
-package main.java.com.test.work.schedule;
+package com.test.work.schedule;
 
 import com.test.work.entity.AccountEntity;
 import com.test.work.service.AccountService;

@@ -1,4 +1,4 @@
-package main.java.com.test.work.config;
+package com.test.work.config;
 
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;

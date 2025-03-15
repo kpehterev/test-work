@@ -1,4 +1,4 @@
-package main.java.com.test.work.security.config;
+package com.test.work.security.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

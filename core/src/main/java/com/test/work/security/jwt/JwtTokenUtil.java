@@ -1,4 +1,4 @@
-package main.java.com.test.work.security.jwt;
+package com.test.work.security.jwt;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

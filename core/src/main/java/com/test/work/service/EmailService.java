@@ -1,4 +1,4 @@
-package main.java.com.test.work.service;
+package com.test.work.service;
 
 import com.test.work.entity.EmailDataEntity;
 import com.test.work.entity.UserEntity;

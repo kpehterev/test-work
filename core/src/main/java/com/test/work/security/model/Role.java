@@ -1,4 +1,4 @@
-package main.java.com.test.work.security.model;
+package com.test.work.security.model;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

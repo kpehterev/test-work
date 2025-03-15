@@ -1,4 +1,4 @@
-package main.java.com.test.work.exception;
+package com.test.work.exception;
 
 import com.test.work.model.BackendErrorResponse;
 import lombok.Getter;

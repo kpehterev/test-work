@@ -1,4 +1,4 @@
-package main.java.com.test.work.util;
+package com.test.work.util;
 
 import lombok.experimental.UtilityClass;
 

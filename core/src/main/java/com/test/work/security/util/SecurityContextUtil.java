@@ -1,4 +1,4 @@
-package main.java.com.test.work.security.util;
+package com.test.work.security.util;
 
 import com.test.work.security.model.CustomAuthenticationToken;
 import io.jsonwebtoken.ExpiredJwtException;

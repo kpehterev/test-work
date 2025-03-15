@@ -1,4 +1,4 @@
-package main.java.com.test.work.handler;
+package com.test.work.handler;
 
 import com.test.work.exception.ResultCodeException;
 import com.test.work.i18n.MsgSourceService;

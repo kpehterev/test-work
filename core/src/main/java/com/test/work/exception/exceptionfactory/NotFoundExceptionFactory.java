@@ -1,4 +1,4 @@
-package main.java.com.test.work.exception.exceptionfactory;
+package com.test.work.exception.exceptionfactory;
 
 import com.test.work.exception.ErrorResponseException;
 

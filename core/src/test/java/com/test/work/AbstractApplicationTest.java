@@ -1,4 +1,4 @@
-package test.java.com.test.work;
+package com.test.work;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.tomakehurst.wiremock.WireMockServer;

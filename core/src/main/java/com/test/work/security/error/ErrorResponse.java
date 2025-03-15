@@ -1,4 +1,4 @@
-package main.java.com.test.work.security.error;
+package com.test.work.security.error;
 
 import lombok.Getter;
 import lombok.Setter;

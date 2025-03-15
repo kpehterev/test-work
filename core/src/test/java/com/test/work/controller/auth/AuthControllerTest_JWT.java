@@ -1,4 +1,4 @@
-package test.java.com.test.work.controller.auth;
+package com.test.work.controller.auth;
 
 import com.test.work.AbstractApplicationTest;
 import com.test.work.SpringBootIt;

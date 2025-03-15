@@ -12,7 +12,7 @@
  *  =======================================================================
  */
 
-package main.java.com.test.work.config;
+package com.test.work.config;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.DeserializationFeature;

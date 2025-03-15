@@ -1,4 +1,4 @@
-package main.java.com.test.work.security;
+package com.test.work.security;
 
 import com.test.work.exception.ErrorResponseException;
 import com.test.work.model.UserCredits;

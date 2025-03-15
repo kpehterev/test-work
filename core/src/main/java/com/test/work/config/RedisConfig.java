@@ -1,4 +1,4 @@
-package main.java.com.test.work.config;
+package com.test.work.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

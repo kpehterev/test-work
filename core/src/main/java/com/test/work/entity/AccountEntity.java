@@ -1,4 +1,4 @@
-package main.java.com.test.work.entity;
+package com.test.work.entity;
 
 import lombok.*;
 import javax.persistence.*;

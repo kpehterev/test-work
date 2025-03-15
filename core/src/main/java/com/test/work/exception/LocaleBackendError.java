@@ -1,4 +1,4 @@
-package main.java.com.test.work.exception;
+package com.test.work.exception;
 
 import io.micrometer.common.lang.Nullable;
 import lombok.Builder;
