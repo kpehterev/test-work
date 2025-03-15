@@ -43,9 +43,9 @@ public class AccountService extends AbstractService<AccountRepository, AccountEn
             throw new IllegalArgumentException("Сумма перевода должна быть больше нуля");
         }
 
-        UserEntity fromUser = userService.findById(fromUserId)
+        UserEntity fromUser = userService.findByIdLocked(fromUserId)
                 .orElseThrow(() -> generateUserNotFoundException(fromUserId));
-        UserEntity toUser = userService.findById(request.getToUserId())
+        UserEntity toUser = userService.findByIdLocked(request.getToUserId())
                 .orElseThrow(() -> generateUserNotFoundException(request.getToUserId()));
 
         if (fromUser.getAccount().getBalance().compareTo(value) < 0) {

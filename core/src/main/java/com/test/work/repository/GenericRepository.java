@@ -2,13 +2,15 @@ package com.test.work.repository;
 
 import java.util.List;
 import java.util.Optional;
-import javax.persistence.LockModeType;
+
+import jakarta.persistence.LockModeType;
 import lombok.NonNull;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.Lock;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.NoRepositoryBean;
 import org.springframework.data.repository.Repository;
+
 
 @NoRepositoryBean
 public interface GenericRepository<T, ID> extends Repository<T, ID> {
@@ -37,4 +39,8 @@ public interface GenericRepository<T, ID> extends Repository<T, ID> {
     void deleteAll(Iterable<? extends T> entities);
 
     T getReferenceById(ID id);
+
+    @Query("FROM #{#entityName} e WHERE e.id = :id")
+    @Lock(LockModeType.PESSIMISTIC_WRITE)
+    Optional<T> findByIdLocked(ID id);
 }
